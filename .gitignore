@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-HTreaaliaika/bin/**
-HTreaaliaika/obj/**
-HTreaaliaika/Properties/**
-.vs/HTreaaliaika/v15/sqlite3/storage.ide
-=======
 **/bin/**
 **/obj/**
 **/Properties/**
-.vs/**
->>>>>>> 6d29c17fb0836b9f0b07c1152688051ac88702bf
+**/.vs/**
