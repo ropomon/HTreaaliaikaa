@@ -24336,11 +24336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ropo\\source\\repos\\HTreaaliaika\\HTreaaliaika\\HTreaaliaika.csproj",
+      "projectUniqueName": "C:\\Users\\ropo\\Documents\\GitHub\\HTreaaliaika\\HTreaaliaika\\HTreaaliaika.csproj",
       "projectName": "HTreaaliaika",
-      "projectPath": "C:\\Users\\ropo\\source\\repos\\HTreaaliaika\\HTreaaliaika\\HTreaaliaika.csproj",
+      "projectPath": "C:\\Users\\ropo\\Documents\\GitHub\\HTreaaliaika\\HTreaaliaika\\HTreaaliaika.csproj",
       "packagesPath": "C:\\Users\\ropo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ropo\\source\\repos\\HTreaaliaika\\HTreaaliaika\\obj\\",
+      "outputPath": "C:\\Users\\ropo\\Documents\\GitHub\\HTreaaliaika\\HTreaaliaika\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -24363,11 +24363,18 @@
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": {
         "target": "Package",
-        "version": "[5.4.0, )"
+        "version": "5.4.0"
       }
     },
     "frameworks": {
-      "uap10.0.10586": {}
+      "uap10.0.10586": {
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": {
+            "target": "Package",
+            "version": "5.4.0"
+          }
+        }
+      }
     },
     "runtimes": {
       "win10-arm": {
