@@ -8,5 +8,6 @@ namespace HTreaaliaika
 {
     public class Prosessi
     {
+        var alsdadsa;
     }
 }
