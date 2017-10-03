@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HTreaaliaika
 {
-    public class Class1
+    public class Prosessi
     {
     }
 }
